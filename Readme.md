@@ -1,4 +1,4 @@
-# GFNet-Dynn README
+# Lightweight Remote Sensing Scene Classification on Edge Devices via Knowledge Distillation and Early-exit
 
 GFNet-Dynn 是结合了 GFNet 和 Dynn 架构优点的混合深度学习模型。此仓库包含了用于训练、评估和部署 GFNet-Dynn 模型的代码库。项目旨在通过利用动态退出机制（早退机制）提高深度神经网络的效率和准确性。
 
