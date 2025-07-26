@@ -1,0 +1,13 @@
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.5
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.75
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.9
+
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.5 --resume
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.75 --resume
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.9 --resume
+
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.5 --resume --eval
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.75 --resume --eval
+python main_dynn.py --data-set NWPU --arch GFNet-Dynn --num_epoch 100 --input-size 256 --ce_ic_tradeoff 0.9 --resume --eval
+
+
