@@ -1,5 +1,7 @@
 # Lightweight Remote Sensing Scene Classification on Edge Devices via Knowledge Distillation and Early-exit
 
+**Read this in other languages: [English](README.md), [中文](README_zh.md).**
+
 GFNet-Dynn is a hybrid deep learning model that combines the advantages of GFNet and Dynn architectures. This repository contains the codebase for training, evaluating, and deploying GFNet-Dynn models. The project aims to improve the efficiency and accuracy of deep neural networks by leveraging a dynamic early-exit mechanism.
 
 ## Installation Guide
